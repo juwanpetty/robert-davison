@@ -1,0 +1,121 @@
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive Shizz --> 
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/reset.min.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/styles.css"> <!-- Resource style -->
+  	
+	<title>Robert Davison | Animator &amp; Motion Designer</title>
+</head>
+<body id="top">
+    <!-- wrapper -->
+    <div class="fluid-container">
+        <div class="wrapper">
+            <!-- Navigation -->
+            <nav>
+                <div class="left-nav">
+                    <a href="index.html"><div class="logo"></div></a>
+
+                    <div class="logo-info hide-md-down">
+                        <p class="">Robert Davison</p>
+                        <p class="">Animator &amp; Motion Designer</p>
+                    </div>
+                </div>
+
+                <div class="right-nav">
+                    <a href="index.html">Work</a>
+                    <a href="mailto:bobdavison4@gmail.com">Contact</a>
+                </div>
+            </nav> <!-- End Navigation -->
+
+            <main>
+                <!-- Project View -->
+                <div class="work" id="project">
+                    <div class="project-header">
+                        <h1>Why hello there</h1>
+
+                        <div class="about">
+                                I tend to <span class="phrase-holder"></span> in the arts of <span class="phrase-holder"></span> and <span class="phrase-holder"></span>
+                        </div>
+                    </div>
+
+                    <ul id="project-list" class="project-list">
+                        <li class="project-item">
+                            <!-- A link to the html file containing project goes here -->
+                            <div data-project-number="1">
+                                <!-- The text for the project overlay goes here -->
+                                <div class="project-name">
+                                    <p>Eatin' Popcorn</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="project-item">
+                            <!-- A link to the html file containing project goes here -->
+                            <div data-project-number="2">
+                                <!-- The text for the project overlay goes here -->
+                                <div class="project-name">
+                                    <p>Project 2</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="project-item">
+                            <!-- A link to the html file containing project goes here -->
+                            <div data-project-number="3">
+                                <!-- The text for the project overlay goes here -->
+                                <div class="project-name">
+                                    <p>Project 3</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- End Project View -->
+            </main>
+
+            <!-- Contact -->
+            <footer>
+                <div class="footer-wrapper">
+					<div class="commisions"><a href="mailto:bobdavison4@gmail.com">I am currently taking commisions.</a></div>
+
+					<div class="social">
+						<div class="social-left">
+							<p class="column-title">Email</p>
+							<a href="">bobdavison4@gmail.com</a>
+						</div>
+	
+						<div class="social-right">
+							<p class="column-title">On the interwebs</p>
+							<a href="">Dribbble</a>
+							<a href="">Twitter</a>
+							<a href="">Instagram</a>
+						</div>
+					</div>
+				</div>	
+            </footer> <!-- End Contact -->
+
+            <a href="#top" id="scrollToTop" class="scrollToTop" onclick="scrollToTop();return false">Top</a>
+        </div>
+    </div>
+	
+    <script src="js/randomphrase.js"></script>
+    <script src="js/projectaspect.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/requestproject.js"></script>
+    <script>
+        function scrollToTop() {
+            if (document.body.scrollTop !== 0 || document.documentElement.scrollTop !== 0) {
+                window.scrollBy(0, -50);
+                requestAnimationFrame(scrollToTop);
+            }
+        }
+    </script>
+</body>
+</html>

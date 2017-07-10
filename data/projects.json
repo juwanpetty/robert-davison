@@ -1,0 +1,24 @@
+{
+	"projects": [{
+			"projectName": "Eatin' Popcorn",
+			"client": "Some Cool Guy Co.",
+			"role": ["Design Lead", "Animation"],
+			"description": "I am the description",
+			"images": ["assets/images/image1.gif", "assets/images/image2.gif"]
+		},
+		{
+			"projectName": "Project 2",
+			"client": "Some Person Inc",
+			"role": ["Lead Errthang", "BOSS"],
+			"description": "I am the description",
+			"images": ["assets/images/image1.gif", "assets/images/image2.gif"]
+		},
+		{
+			"projectName": "Project 3",
+			"client": "A bleep blop",
+			"role": ["Mac Miller", "BOSS"],
+			"description": "I am the your father",
+			"images": ["assets/images/image1.gif", "assets/images/image2.gif"]
+		}
+	]
+}
